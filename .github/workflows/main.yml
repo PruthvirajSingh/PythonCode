@@ -24,7 +24,7 @@ jobs:
             if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         - name: Run test cases
           run: |
-            pip install BaseClass
+            
             pip install configparser
             pytest -p no:logging
 

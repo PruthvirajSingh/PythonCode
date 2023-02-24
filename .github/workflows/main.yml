@@ -26,6 +26,7 @@ jobs:
           run: |
             
             pip install configparser
+            
+            pip install allure-pytest
             pytest -p no:logging
-
 

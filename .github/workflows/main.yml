@@ -5,6 +5,9 @@ jobs:
 
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./testCases
 
     steps:
         - name: Checkout
@@ -26,5 +29,5 @@ jobs:
             flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
         - name: Test with pytest
           run: |
-            pytest -vs testCases\test_login.py -p no:logging
+            pytest -vs -p no:logging
   

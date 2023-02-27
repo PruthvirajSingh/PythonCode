@@ -24,17 +24,13 @@ jobs:
             python -m pip install --upgrade pip
             pip install flake8 pytest
             if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        - name: Run tests and generate Allure report
+        - name: Lint with flake8
           run: |
-            pytest --alluredir=./allure-results
-            allure generate ./allure-results --clean -o ./allure-report
-          env:
-            SELENIUM_BROWSER: chrome
-            SELENIUM_DRIVER_EXECUTABLE_PATH: /usr/bin/chromedriver
-        - name: Upload report to GitHub Pages
-          uses: peaceiris/actions-gh-pages@v3
-          with:
-            personal_token: ${{ secrets.PERSONAL_TOKEN }}
-            publish_dir: ./allure-report
-
+            # stop the build if there are Python syntax errors or undefined names
+            flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+            # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+            flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+        - name: Test with pytest
+          run: |
+            pytest -vs -p no:logging
   

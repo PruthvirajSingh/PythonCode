@@ -2524,3 +2524,39 @@
 02/27/2023 03:18:22 PM: INFO: Enter the username
 02/27/2023 03:18:26 PM: INFO: ******* End of Login Test **********
 02/27/2023 03:18:26 PM: INFO: **************** Completed  TC_Login_001 ************* 
+02/27/2023 03:47:21 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 03:47:28 PM: INFO: Enter Base Url
+02/27/2023 03:47:28 PM: INFO: Maximized windows
+02/27/2023 03:47:40 PM: INFO: Enter the username
+02/27/2023 03:47:40 PM: INFO: Click on next button
+02/27/2023 03:47:43 PM: INFO: Enter Passwrod
+02/27/2023 03:47:43 PM: INFO: Login button after the password
+02/27/2023 03:48:09 PM: INFO: **** passed ****
+02/27/2023 03:48:24 PM: INFO: Enter the username
+02/27/2023 03:48:29 PM: INFO: **** passed ****
+02/27/2023 03:48:29 PM: INFO: ******* End of Login Test **********
+02/27/2023 03:48:29 PM: INFO: **************** Completed  TC_Login_001 ************* 
+02/27/2023 03:48:40 PM: INFO: Enter the username
+02/27/2023 03:48:50 PM: INFO: ******* End of Login Test **********
+02/27/2023 03:48:50 PM: INFO: **************** Completed  TC_Login_001 ************* 
+02/27/2023 03:49:02 PM: INFO: Enter the username
+02/27/2023 03:49:09 PM: INFO: ******* End of Login Test **********
+02/27/2023 03:49:09 PM: INFO: **************** Completed  TC_Login_001 ************* 
+02/27/2023 03:51:09 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 03:51:13 PM: INFO: Enter Base Url
+02/27/2023 03:51:13 PM: INFO: Maximized windows
+02/27/2023 03:51:20 PM: INFO: Enter the username
+02/27/2023 03:51:20 PM: INFO: Click on next button
+02/27/2023 03:51:22 PM: INFO: Enter Passwrod
+02/27/2023 03:51:23 PM: INFO: Login button after the password
+02/27/2023 03:51:38 PM: INFO: **** passed ****
+02/27/2023 03:51:57 PM: INFO: Enter the username
+02/27/2023 03:52:03 PM: INFO: **** passed ****
+02/27/2023 03:52:03 PM: INFO: ******* End of Login Test **********
+02/27/2023 03:52:03 PM: INFO: **************** Completed  TC_Login_001 ************* 
+02/27/2023 03:52:11 PM: INFO: Enter the username
+02/27/2023 03:52:15 PM: INFO: ******* End of Login Test **********
+02/27/2023 03:52:15 PM: INFO: **************** Completed  TC_Login_001 ************* 
+02/27/2023 03:52:23 PM: INFO: Enter the username
+02/27/2023 03:52:27 PM: INFO: ******* End of Login Test **********
+02/27/2023 03:52:27 PM: INFO: **************** Completed  TC_Login_001 ************* 

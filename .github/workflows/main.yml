@@ -7,37 +7,31 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./testCases
-#        - name: Checkout tools repo
-    #          uses: actions/checkout@v3
-    #          with:
-    #           repository: PruthvirajSingh/Empt
-    #           path: main
-    steps:
-        - name: Checkout
+        working-directory:  PruthvirajSingh/PythonCode
+  steps:
+    - name: Checkout
 
-          uses: actions/checkout@v3
-          with:
-               repository: PruthvirajSingh/PythonCode
-
-               path: main
-        - name: Set up Python
-          uses: actions/setup-python@v2
-          with:
-            python-version: '3.9'
-        - name: Install dependencies
-          run: |
-            
-            pip install openpyxl
-            pip install pytest
-            python -m pip install --upgrade pip
-            pip install flake8 pytest
-            if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
-        - name: Run tests and generate Allure report
-          run: |
-            pytest 
-
+      uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+    - name: Installing all necessary packages
+      run: pip install chromedriver-autoinstaller selenium pyvirtualdisplay
+    - name: Install dependencies
+      run: |
+        pip install allure
+        pip install openpyxl
+        pip install pytest
+        python -m pip install --upgrade pip
+        pip install flake8 pytest
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Lint with flake8
+      run: |
+        # stop the build if there are Python syntax errors or undefined names
+        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    - name: Test with pytest
+      run: |
+        pytest
 #          env:
 #            SELENIUM_BROWSER: chrome
 #            SELENIUM_DRIVER_EXECUTABLE_PATH: /usr/bin/chromedriver

@@ -4,7 +4,7 @@ from pageObject.NewCreateSurvey import CreateNewSurvey
 import random
 import string
 
-from test_pakages.BaseClass import BaseClass
+from testCases.BaseClass import BaseClass
 
 
 class Test_002(BaseClass):

@@ -1,6 +1,6 @@
 import time
 
-from test_pakages.BaseClass import BaseClass
+from testCases.BaseClass import BaseClass
 from pageObject.NewCreateSurvey import CreateNewSurvey
 import random
 import string

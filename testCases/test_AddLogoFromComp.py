@@ -1,6 +1,6 @@
 import time
 
-from test_pakages.BaseClass import BaseClass
+from testCases.BaseClass import BaseClass
 import random
 import string
 import os

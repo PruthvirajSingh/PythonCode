@@ -1,8 +1,8 @@
 import configparser
 
 config=configparser.RawConfigParser()
-config.read(".\\Configration\config.ini")
-
+# config.read(".\\Configration\config.ini")
+config.read("C:/Users/Pruthvirajsing/PycharmProjects/pythonProject2/Configration/config.ini")
 class ReadConfig():
     @staticmethod
     def readBaseUrl():

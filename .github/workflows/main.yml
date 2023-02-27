@@ -22,7 +22,7 @@ jobs:
             
 
       - name: execute py script # run main.py
-        run: py.test
+        run: pytest -vs testCases\test_login.py -p no:logging
 
       - name: commit files
         run: |

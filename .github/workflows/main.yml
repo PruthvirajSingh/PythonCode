@@ -8,14 +8,22 @@ jobs:
     defaults:
       run:
         working-directory: ./testCases
-
+#        - name: Checkout tools repo
+    #          uses: actions/checkout@v3
+    #          with:
+    #           repository: PruthvirajSingh/Empt
+    #           path: main
     steps:
-        - name: Checkout tools repo
+        - name: Checkout
+
           uses: actions/checkout@v3
           with:
-            repository: PruthvirajSingh/Empt
-            path: main
+               repository: PruthvirajSingh/PythonCode
 
+               path: main
+        - uses: actions/setup-python@v4
+        - name: Installing all necessary packages
+          run: pip install chromedriver-autoinstaller selenium pyvirtualdisplay
         - name: Install dependencies
           run: |
             

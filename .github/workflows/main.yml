@@ -26,14 +26,14 @@ jobs:
             if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         - name: Run tests and generate Allure report
           run: |
-            pytest --alluredir=./allure-results
-            allure generate ./allure-results --clean -o ./allure-report
-          env:
-            SELENIUM_BROWSER: chrome
-            SELENIUM_DRIVER_EXECUTABLE_PATH: /usr/bin/chromedriver
-        - name: Upload report to GitHub Pages
-          uses: peaceiris/actions-gh-pages@v3
-          with:
-            personal_token: ${{ secrets.PERSONAL_TOKEN }}
-            publish_dir: ./allure-report
+            pytest 
+
+#          env:
+#            SELENIUM_BROWSER: chrome
+#            SELENIUM_DRIVER_EXECUTABLE_PATH: /usr/bin/chromedriver
+#        - name: Upload report to GitHub Pages
+#          uses: peaceiris/actions-gh-pages@v3
+#          with:
+#            personal_token: ${{ secrets.PERSONAL_TOKEN }}
+#            publish_dir: ./allure-report
 

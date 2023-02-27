@@ -2386,3 +2386,123 @@
 02/27/2023 12:11:02 PM: INFO: Enter Base Url
 02/27/2023 12:11:04 PM: INFO: ************* Test Case No 001 _login test**********************
 02/27/2023 12:11:07 PM: INFO: Enter Base Url
+02/27/2023 12:14:57 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:15:02 PM: INFO: Enter Base Url
+02/27/2023 12:15:02 PM: INFO: Maximized windows
+02/27/2023 12:15:57 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:16:01 PM: INFO: Enter Base Url
+02/27/2023 12:16:01 PM: INFO: Maximized windows
+02/27/2023 12:19:38 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:19:42 PM: INFO: Enter Base Url
+02/27/2023 12:19:42 PM: INFO: Maximized windows
+02/27/2023 12:19:50 PM: INFO: Enter the username
+02/27/2023 12:20:05 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:20:08 PM: INFO: Enter Base Url
+02/27/2023 12:20:08 PM: INFO: Maximized windows
+02/27/2023 12:20:16 PM: INFO: Enter the username
+02/27/2023 12:21:08 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:21:12 PM: INFO: Enter Base Url
+02/27/2023 12:21:12 PM: INFO: Maximized windows
+02/27/2023 12:21:20 PM: INFO: Enter the username
+02/27/2023 12:21:20 PM: INFO: Click on next button
+02/27/2023 12:26:36 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:26:40 PM: INFO: Enter Base Url
+02/27/2023 12:26:40 PM: INFO: Maximized windows
+02/27/2023 12:26:51 PM: INFO: Enter the username
+02/27/2023 12:26:51 PM: INFO: Click on next button
+02/27/2023 12:26:54 PM: INFO: Enter Passwrod
+02/27/2023 12:27:59 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:28:03 PM: INFO: Enter Base Url
+02/27/2023 12:28:03 PM: INFO: Maximized windows
+02/27/2023 12:28:15 PM: INFO: Enter the username
+02/27/2023 12:28:15 PM: INFO: Click on next button
+02/27/2023 12:28:53 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:28:57 PM: INFO: Enter Base Url
+02/27/2023 12:28:57 PM: INFO: Maximized windows
+02/27/2023 12:29:05 PM: INFO: Enter the username
+02/27/2023 12:29:05 PM: INFO: Click on next button
+02/27/2023 12:30:24 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:30:28 PM: INFO: Enter Base Url
+02/27/2023 12:30:28 PM: INFO: Maximized windows
+02/27/2023 12:30:37 PM: INFO: Enter the username
+02/27/2023 12:30:37 PM: INFO: Click on next button
+02/27/2023 12:30:39 PM: INFO: Enter Passwrod
+02/27/2023 12:32:17 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:32:20 PM: INFO: Enter Base Url
+02/27/2023 12:32:21 PM: INFO: Maximized windows
+02/27/2023 12:32:29 PM: INFO: Enter the username
+02/27/2023 12:32:29 PM: INFO: Click on next button
+02/27/2023 12:32:32 PM: INFO: Enter Passwrod
+02/27/2023 12:32:32 PM: INFO: Login button after the password
+02/27/2023 12:32:50 PM: INFO: **** passed ****
+02/27/2023 12:33:04 PM: INFO: Enter the username
+02/27/2023 12:33:10 PM: INFO: **** passed ****
+02/27/2023 12:33:10 PM: INFO: ******* End of Login Test **********
+02/27/2023 12:33:10 PM: INFO: **************** Completed  TC_Login_001 ************* 
+02/27/2023 12:33:17 PM: INFO: Enter the username
+02/27/2023 12:33:23 PM: INFO: ******* End of Login Test **********
+02/27/2023 12:33:23 PM: INFO: **************** Completed  TC_Login_001 ************* 
+02/27/2023 12:33:31 PM: INFO: Enter the username
+02/27/2023 12:33:35 PM: INFO: ******* End of Login Test **********
+02/27/2023 12:33:35 PM: INFO: **************** Completed  TC_Login_001 ************* 
+02/27/2023 12:33:50 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:33:54 PM: INFO: Enter Base Url
+02/27/2023 12:33:54 PM: INFO: Maximized windows
+02/27/2023 12:34:02 PM: INFO: Enter the username
+02/27/2023 12:34:02 PM: INFO: Click on next button
+02/27/2023 12:34:05 PM: INFO: Enter Passwrod
+02/27/2023 12:34:05 PM: INFO: Login button after the password
+02/27/2023 12:34:05 PM: INFO: create new survey
+02/27/2023 12:34:21 PM: INFO: Select start from scartch
+02/27/2023 12:34:23 PM: INFO: Name of survey
+02/27/2023 12:34:23 PM: INFO: Click on the create survey
+02/27/2023 12:34:42 PM: INFO: click on the my Survey
+02/27/2023 12:34:46 PM: INFO: Click three dots
+02/27/2023 12:34:46 PM: INFO: Delete survey
+02/27/2023 12:34:51 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:34:55 PM: INFO: Enter Base Url
+02/27/2023 12:34:55 PM: INFO: Maximized windows
+02/27/2023 12:35:04 PM: INFO: Enter the username
+02/27/2023 12:35:04 PM: INFO: Click on next button
+02/27/2023 12:35:06 PM: INFO: Enter Passwrod
+02/27/2023 12:35:06 PM: INFO: Login button after the password
+02/27/2023 12:35:06 PM: INFO: create new survey
+02/27/2023 12:35:24 PM: INFO: Select start from scartch
+02/27/2023 12:35:26 PM: INFO: Name of survey
+02/27/2023 12:35:26 PM: INFO: Click on the create survey
+02/27/2023 12:35:39 PM: INFO: click on the my Survey
+02/27/2023 12:35:44 PM: INFO: Click three dots
+02/27/2023 12:35:45 PM: INFO: Delete survey
+02/27/2023 12:35:54 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:35:58 PM: INFO: Enter Base Url
+02/27/2023 12:35:59 PM: INFO: Maximized windows
+02/27/2023 12:36:11 PM: INFO: Enter the username
+02/27/2023 12:36:11 PM: INFO: Click on next button
+02/27/2023 12:36:14 PM: INFO: Enter Passwrod
+02/27/2023 12:36:14 PM: INFO: Login button after the password
+02/27/2023 12:36:14 PM: INFO: ************* Test Case No 002 _Create survey Start from scratch**********************
+02/27/2023 12:36:14 PM: INFO: create new survey
+02/27/2023 12:36:30 PM: INFO: Select start from scartch
+02/27/2023 12:36:33 PM: INFO: Name of survey
+02/27/2023 12:36:33 PM: INFO: Click on the create survey
+02/27/2023 12:36:41 PM: INFO: click on the my Survey
+02/27/2023 12:36:42 PM: INFO: Click three dots
+02/27/2023 12:36:44 PM: INFO: Delete survey
+02/27/2023 12:36:52 PM: INFO: ************* Test Case No 001 _login test**********************
+02/27/2023 12:36:55 PM: INFO: Enter Base Url
+02/27/2023 12:36:55 PM: INFO: Maximized windows
+02/27/2023 12:37:04 PM: INFO: Enter the username
+02/27/2023 12:37:04 PM: INFO: Click on next button
+02/27/2023 12:37:07 PM: INFO: Enter Passwrod
+02/27/2023 12:37:07 PM: INFO: Login button after the password
+02/27/2023 12:37:30 PM: INFO: **** passed ****
+02/27/2023 12:37:53 PM: INFO: Enter the username
+02/27/2023 12:38:10 PM: INFO: **** passed ****
+02/27/2023 12:38:10 PM: INFO: ******* End of Login Test **********
+02/27/2023 12:38:10 PM: INFO: **************** Completed  TC_Login_001 ************* 
+02/27/2023 12:38:20 PM: INFO: Enter the username
+02/27/2023 12:38:27 PM: INFO: ******* End of Login Test **********
+02/27/2023 12:38:27 PM: INFO: **************** Completed  TC_Login_001 ************* 
+02/27/2023 12:38:36 PM: INFO: Enter the username
+02/27/2023 12:38:40 PM: INFO: ******* End of Login Test **********
+02/27/2023 12:38:40 PM: INFO: **************** Completed  TC_Login_001 ************* 

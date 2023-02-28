@@ -23,7 +23,7 @@ class Test_001:
         self.logger.info("************* Test Case No 001 _login test**********************")
         self.driver.get(self.baseURL)
         self.logger.info("Enter Base Url")
-        self.driver.implicitly_wait(10)
+        self.driver.implicitly_wait(30)
         self.driver.maximize_window()
         self.logger.info("Maximized windows")
         self.lp = Login(self.driver)

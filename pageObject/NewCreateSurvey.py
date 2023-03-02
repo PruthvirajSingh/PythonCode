@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+from selenium.webdriver.common.action_chains import ActionChains
 
 class CreateNewSurvey:
     button_createSurvey_css = ".mm-header__action-create"
@@ -9,7 +9,7 @@ class CreateNewSurvey:
     text_popUpNameOfSurvey_css=".wds-modal__text"
     text_SurveyName_css = "input#surveyTitle"
     button_newCreateSurvey_xpath = "//button[@id='newSurvey']"
-    button_mySurvey_xpath = "//a[@title='My Surveys']"
+    button_mySurvey_xpath = "//nav[@class='mm-navigation mm-header__navigation']//a[text()='My Surveys']"
     button_threeDot_xpath = "(//a[@class='survey-actions'])[1]"
     button_delete_xpath = "(//span[text()='Delete'])[2]"
     button_finalDelete_xpath = "(//a[text()='DELETE'])[3]"
@@ -53,6 +53,7 @@ class CreateNewSurvey:
     def mySurvy(self, driver):
 
         element = WebDriverWait(driver, 10).until(
+
             EC.presence_of_element_located((By.XPATH, self.button_mySurvey_xpath)))
         element.click()
 

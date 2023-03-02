@@ -1,0 +1,14 @@
+[32mINFO    [0m root:BaseClass.py:21 ************* Test Case No 001 _login test**********************
+[32mINFO    [0m root:BaseClass.py:23 Enter Base Url
+[32mINFO    [0m root:BaseClass.py:26 Maximized windows
+[32mINFO    [0m root:BaseClass.py:37 Enter the username
+[32mINFO    [0m root:BaseClass.py:39 Click on next button
+[32mINFO    [0m root:BaseClass.py:41 Enter Passwrod
+[32mINFO    [0m root:BaseClass.py:43 Login button after the password
+[32mINFO    [0m root:test_AddLogoFromComp.py:14 create new survey
+[32mINFO    [0m root:test_AddLogoFromComp.py:16 Select start from scartch
+[32mINFO    [0m root:test_AddLogoFromComp.py:18 Name of survey
+[32mINFO    [0m root:test_AddLogoFromComp.py:20 Click on the create survey
+[32mINFO    [0m root:BaseClass.py:50 click on the my Survey
+[32mINFO    [0m root:BaseClass.py:52 Click three dots
+[32mINFO    [0m root:BaseClass.py:54 Delete survey

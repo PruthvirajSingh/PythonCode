@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-
+from selenium.webdriver.support.ui import WebDriverWait
 
 @pytest.fixture()
 def setUp1(browser):
@@ -21,3 +21,10 @@ def pytest_addoption(parser):
 @pytest.fixture()
 def browser(request):  # This will return the Browser value to setup method
     return request.config.getoption("--browser")
+@pytest.fixture()
+def wait_time():
+    return 30
+
+@pytest.fixture()
+def wait(driver,wait_time):
+    return WebDriverWait(driver,wait_time)

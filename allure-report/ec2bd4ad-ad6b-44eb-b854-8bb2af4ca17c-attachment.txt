@@ -1,0 +1,18 @@
+[32mINFO    [0m root:test_login.py:23 ************* Test Case No 001 _login test**********************
+[32mINFO    [0m root:test_login.py:25 Enter Base Url
+[32mINFO    [0m root:test_login.py:28 Maximized windows
+[32mINFO    [0m root:test_login.py:41 Enter the username
+[32mINFO    [0m root:test_login.py:43 Click on next button
+[32mINFO    [0m root:test_login.py:45 Enter Passwrod
+[32mINFO    [0m root:test_login.py:47 Login button after the password
+[32mINFO    [0m root:test_login.py:55 **** passed ****
+[32mINFO    [0m root:test_login.py:76 Enter the username
+[32mINFO    [0m root:test_login.py:103 **** passed ****
+[32mINFO    [0m root:test_login.py:107 ******* End of Login Test **********
+[32mINFO    [0m root:test_login.py:108 **************** Completed  TC_Login_001 ************* 
+[32mINFO    [0m root:test_login.py:76 Enter the username
+[32mINFO    [0m root:test_login.py:107 ******* End of Login Test **********
+[32mINFO    [0m root:test_login.py:108 **************** Completed  TC_Login_001 ************* 
+[32mINFO    [0m root:test_login.py:76 Enter the username
+[32mINFO    [0m root:test_login.py:107 ******* End of Login Test **********
+[32mINFO    [0m root:test_login.py:108 **************** Completed  TC_Login_001 *************

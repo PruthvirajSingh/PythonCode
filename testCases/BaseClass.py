@@ -1,5 +1,8 @@
 import time
 
+import allure
+from allure_commons.types import AttachmentType
+
 from Utilities.ReadProperties import ReadConfig
 from Utilities.customLogger import LogGen
 from pageObject.LoginPage import Login
@@ -40,8 +43,10 @@ class BaseClass:
         self.logger.info("Login button after the password")
     @staticmethod
     def tearDown(self,setUp1):
+
         self.driver = setUp1
         createSurvey = CreateNewSurvey(self.driver)
+        allure.attach(self.driver.get_screenshot_as_png(),name="login and create survey",attachment_type=AttachmentType.PNG)
         self.logger.info("click on the my Survey")
         createSurvey.mySurvy(setUp1)
         self.logger.info("Click three dots")

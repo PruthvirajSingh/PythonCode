@@ -2837,3 +2837,19 @@
 03/01/2023 12:14:48 PM: INFO: Enter the username
 03/01/2023 12:14:51 PM: INFO: ******* End of Login Test **********
 03/01/2023 12:14:51 PM: INFO: **************** Completed  TC_Login_001 ************* 
+03/02/2023 02:49:57 PM: INFO: create new survey
+03/02/2023 03:04:32 PM: INFO: ************* Test Case No 001 _login test**********************
+03/02/2023 03:04:46 PM: INFO: Enter Base Url
+03/02/2023 03:04:46 PM: INFO: Maximized windows
+03/02/2023 03:04:55 PM: INFO: Enter the username
+03/02/2023 03:04:55 PM: INFO: Click on next button
+03/02/2023 03:04:58 PM: INFO: Enter Passwrod
+03/02/2023 03:04:58 PM: INFO: Login button after the password
+03/02/2023 03:05:17 PM: INFO: **** passed ****
+03/02/2023 03:05:27 PM: INFO: Enter the username
+03/02/2023 03:05:31 PM: INFO: **** passed ****
+03/02/2023 03:05:31 PM: INFO: ******* End of Login Test **********
+03/02/2023 03:05:31 PM: INFO: **************** Completed  TC_Login_001 ************* 
+03/02/2023 03:05:37 PM: INFO: Enter the username
+03/02/2023 03:05:40 PM: INFO: ******* End of Login Test **********
+03/02/2023 03:05:40 PM: INFO: **************** Completed  TC_Login_001 ************* 

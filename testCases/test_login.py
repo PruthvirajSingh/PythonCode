@@ -13,7 +13,7 @@ from Utilities import XLUtils
 @allure.severity(allure.severity_level.NORMAL)
 class Test_001:
     baseURL = ReadConfig.readBaseUrl()
-    path = "C:/Users/Pruthvirajsing/PycharmProjects/pythonProject2/TestData/LoginData.xlsx"
+    path = ".//TestData//LoginData.xlsx"
     logger = LogGen.loggen()
 
     @allure.severity(allure.severity_level.MINOR)
